@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Student_Management_Test_Suite" class="navigator-link">
+              <span class="suite-name border-passed">Student Management Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Student_Management_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\Dell\eclipse-workspace\StudentManagementTest\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Student_Management_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Student_Management_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Student_Management_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Student_Management_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Student_Management_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Student_Management_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Student_Management_Test_Suite" class="hide-methods passed suite-Student_Management_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Student_Management_Test_Suite -->
+                      <a href="#" panel-name="suite-Student_Management_Test_Suite" class="show-methods passed suite-Student_Management_Test_Suite"> (show)</a> <!-- show-methods passed suite-Student_Management_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Student_Management_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Student_Management_Test_Suite" title="tests.AdminAddCourseTest" class="method navigator-link" hash-for-method="runAdminAddCourseTest">runAdminAddCourseTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Student_Management_Test_Suite" title="tests.AdminAddStudentTest" class="method navigator-link" hash-for-method="runAdminAddStudentTest">runAdminAddStudentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Student_Management_Test_Suite" title="tests.AdminAssignCourseTest" class="method navigator-link" hash-for-method="runAdminAssignCourseTest">runAdminAssignCourseTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Student_Management_Test_Suite" title="tests.AdminEnterMarksTest" class="method navigator-link" hash-for-method="runAdminEnterMarksTest">runAdminEnterMarksTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Student_Management_Test_Suite" title="tests.AdminListStudentTest" class="method navigator-link" hash-for-method="runAdminListStudentTest">runAdminListStudentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Student_Management_Test_Suite" title="tests.AdminMainPageTest" class="method navigator-link" hash-for-method="runAdminMainPageTest">runAdminMainPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Student_Management_Test_Suite" title="tests.AdminMarksMainTest" class="method navigator-link" hash-for-method="runAdminMarksMainTest">runAdminMarksMainTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Student_Management_Test_Suite" title="tests.AdminSearchCourseTest" class="method navigator-link" hash-for-method="runAdminSearchCourseTest">runAdminSearchCourseTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Student_Management_Test_Suite" title="tests.AdminSearchStudentTest" class="method navigator-link" hash-for-method="runAdminSearchStudentTest">runAdminSearchStudentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Student_Management_Test_Suite" title="tests.AdminUpdateMarksTest" class="method navigator-link" hash-for-method="runAdminUpdateMarksTest">runAdminUpdateMarksTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Student_Management_Test_Suite" title="tests.HomePageTest" class="method navigator-link" hash-for-method="runHomePageTest">runHomePageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Student_Management_Test_Suite" title="tests.StudentLoginTest" class="method navigator-link" hash-for-method="runLoginTest">runLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Student_Management_Test_Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="runLoginTest">runLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Student_Management_Test_Suite" title="tests.RegisterTest" class="method navigator-link" hash-for-method="runRegisterTest">runRegisterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Student_Management_Test_Suite" title="tests.StudentCourseMainTest" class="method navigator-link" hash-for-method="runStudentCourseMainTest">runStudentCourseMainTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Student_Management_Test_Suite" title="tests.StudentMainPageTest" class="method navigator-link" hash-for-method="runStudentMainPageTest">runStudentMainPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Student_Management_Test_Suite" title="tests.StudentMarksMainTest" class="method navigator-link" hash-for-method="runStudentMarksMainTest">runStudentMarksMainTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Student_Management_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Student_Management_Test_Suite" class="panel Student_Management_Test_Suite">
+          <div class="suite-Student_Management_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.StudentLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runLoginTest">
+                  </a> <!-- runLoginTest -->
+                  <span class="method-name">runLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Student_Management_Test_Suite-class-passed -->
+          <div class="suite-Student_Management_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AdminAssignCourseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runAdminAssignCourseTest">
+                  </a> <!-- runAdminAssignCourseTest -->
+                  <span class="method-name">runAdminAssignCourseTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Student_Management_Test_Suite-class-passed -->
+          <div class="suite-Student_Management_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AdminAddCourseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runAdminAddCourseTest">
+                  </a> <!-- runAdminAddCourseTest -->
+                  <span class="method-name">runAdminAddCourseTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Student_Management_Test_Suite-class-passed -->
+          <div class="suite-Student_Management_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.StudentMarksMainTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runStudentMarksMainTest">
+                  </a> <!-- runStudentMarksMainTest -->
+                  <span class="method-name">runStudentMarksMainTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Student_Management_Test_Suite-class-passed -->
+          <div class="suite-Student_Management_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.StudentCourseMainTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runStudentCourseMainTest">
+                  </a> <!-- runStudentCourseMainTest -->
+                  <span class="method-name">runStudentCourseMainTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Student_Management_Test_Suite-class-passed -->
+          <div class="suite-Student_Management_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AdminSearchCourseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runAdminSearchCourseTest">
+                  </a> <!-- runAdminSearchCourseTest -->
+                  <span class="method-name">runAdminSearchCourseTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Student_Management_Test_Suite-class-passed -->
+          <div class="suite-Student_Management_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.RegisterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runRegisterTest">
+                  </a> <!-- runRegisterTest -->
+                  <span class="method-name">runRegisterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Student_Management_Test_Suite-class-passed -->
+          <div class="suite-Student_Management_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.StudentMainPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runStudentMainPageTest">
+                  </a> <!-- runStudentMainPageTest -->
+                  <span class="method-name">runStudentMainPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Student_Management_Test_Suite-class-passed -->
+          <div class="suite-Student_Management_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AdminEnterMarksTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runAdminEnterMarksTest">
+                  </a> <!-- runAdminEnterMarksTest -->
+                  <span class="method-name">runAdminEnterMarksTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Student_Management_Test_Suite-class-passed -->
+          <div class="suite-Student_Management_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AdminListStudentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runAdminListStudentTest">
+                  </a> <!-- runAdminListStudentTest -->
+                  <span class="method-name">runAdminListStudentTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Student_Management_Test_Suite-class-passed -->
+          <div class="suite-Student_Management_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runHomePageTest">
+                  </a> <!-- runHomePageTest -->
+                  <span class="method-name">runHomePageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Student_Management_Test_Suite-class-passed -->
+          <div class="suite-Student_Management_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AdminMarksMainTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runAdminMarksMainTest">
+                  </a> <!-- runAdminMarksMainTest -->
+                  <span class="method-name">runAdminMarksMainTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Student_Management_Test_Suite-class-passed -->
+          <div class="suite-Student_Management_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AdminMainPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runAdminMainPageTest">
+                  </a> <!-- runAdminMainPageTest -->
+                  <span class="method-name">runAdminMainPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Student_Management_Test_Suite-class-passed -->
+          <div class="suite-Student_Management_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AdminSearchStudentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runAdminSearchStudentTest">
+                  </a> <!-- runAdminSearchStudentTest -->
+                  <span class="method-name">runAdminSearchStudentTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Student_Management_Test_Suite-class-passed -->
+          <div class="suite-Student_Management_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runLoginTest">
+                  </a> <!-- runLoginTest -->
+                  <span class="method-name">runLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Student_Management_Test_Suite-class-passed -->
+          <div class="suite-Student_Management_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AdminAddStudentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runAdminAddStudentTest">
+                  </a> <!-- runAdminAddStudentTest -->
+                  <span class="method-name">runAdminAddStudentTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Student_Management_Test_Suite-class-passed -->
+          <div class="suite-Student_Management_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AdminUpdateMarksTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runAdminUpdateMarksTest">
+                  </a> <!-- runAdminUpdateMarksTest -->
+                  <span class="method-name">runAdminUpdateMarksTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Student_Management_Test_Suite-class-passed -->
+        </div> <!-- panel Student_Management_Test_Suite -->
+        <div panel-name="test-xml-Student_Management_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Dell\eclipse-workspace\StudentManagementTest\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Student Management Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;All Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;tests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;tests.RegisterTest&quot;/&gt;
+      &lt;class name=&quot;tests.StudentLoginTest&quot;/&gt;
+      &lt;class name=&quot;tests.StudentMainPageTest&quot;/&gt;
+      &lt;class name=&quot;tests.StudentCourseMainTest&quot;/&gt;
+      &lt;class name=&quot;tests.StudentMarksMainTest&quot;/&gt;
+      &lt;class name=&quot;tests.AdminMainPageTest&quot;/&gt;
+      &lt;class name=&quot;tests.AdminAddStudentTest&quot;/&gt;
+      &lt;class name=&quot;tests.AdminListStudentTest&quot;/&gt;
+      &lt;class name=&quot;tests.AdminSearchStudentTest&quot;/&gt;
+      &lt;class name=&quot;tests.AdminAddCourseTest&quot;/&gt;
+      &lt;class name=&quot;tests.AdminAssignCourseTest&quot;/&gt;
+      &lt;class name=&quot;tests.AdminSearchCourseTest&quot;/&gt;
+      &lt;class name=&quot;tests.AdminMarksMainTest&quot;/&gt;
+      &lt;class name=&quot;tests.AdminEnterMarksTest&quot;/&gt;
+      &lt;class name=&quot;tests.AdminUpdateMarksTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- All Tests --&gt;
+&lt;/suite&gt; &lt;!-- Student Management Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Student_Management_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Student Management Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">All Tests (17 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Student_Management_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Student Management Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Student_Management_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Student Management Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Student_Management_Test_Suite');
+function tableData_Student_Management_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runRegisterTest')
+data.setCell(0, 2, 'tests.RegisterTest')
+data.setCell(0, 3, 66926);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runAdminAddStudentTest')
+data.setCell(1, 2, 'tests.AdminAddStudentTest')
+data.setCell(1, 3, 40951);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runAdminAddCourseTest')
+data.setCell(2, 2, 'tests.AdminAddCourseTest')
+data.setCell(2, 3, 18590);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runLoginTest')
+data.setCell(3, 2, 'tests.LoginTest')
+data.setCell(3, 3, 18246);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runLoginTest')
+data.setCell(4, 2, 'tests.StudentLoginTest')
+data.setCell(4, 3, 13777);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runHomePageTest')
+data.setCell(5, 2, 'tests.HomePageTest')
+data.setCell(5, 3, 7669);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runStudentMarksMainTest')
+data.setCell(6, 2, 'tests.StudentMarksMainTest')
+data.setCell(6, 3, 3192);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runAdminMainPageTest')
+data.setCell(7, 2, 'tests.AdminMainPageTest')
+data.setCell(7, 3, 2683);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runAdminListStudentTest')
+data.setCell(8, 2, 'tests.AdminListStudentTest')
+data.setCell(8, 3, 2517);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runAdminUpdateMarksTest')
+data.setCell(9, 2, 'tests.AdminUpdateMarksTest')
+data.setCell(9, 3, 2497);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runStudentMainPageTest')
+data.setCell(10, 2, 'tests.StudentMainPageTest')
+data.setCell(10, 3, 2288);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runStudentCourseMainTest')
+data.setCell(11, 2, 'tests.StudentCourseMainTest')
+data.setCell(11, 3, 2223);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runAdminSearchCourseTest')
+data.setCell(12, 2, 'tests.AdminSearchCourseTest')
+data.setCell(12, 3, 2187);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runAdminMarksMainTest')
+data.setCell(13, 2, 'tests.AdminMarksMainTest')
+data.setCell(13, 3, 2113);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'runAdminSearchStudentTest')
+data.setCell(14, 2, 'tests.AdminSearchStudentTest')
+data.setCell(14, 3, 2054);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'runAdminAssignCourseTest')
+data.setCell(15, 2, 'tests.AdminAssignCourseTest')
+data.setCell(15, 3, 1796);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'runAdminEnterMarksTest')
+data.setCell(16, 2, 'tests.AdminEnterMarksTest')
+data.setCell(16, 3, 1397);
+window.suiteTableData['Student_Management_Test_Suite']= { tableData: data, tableDiv: 'times-div-Student_Management_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Student_Management_Test_Suite">
+              </div> <!-- times-div-Student_Management_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Student_Management_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Student Management Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Student_Management_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Student_Management_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runHomePageTest</span>
+                <span class="method-start">1375 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9049 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">9246 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runLoginTest</span>
+                <span class="method-start">9972 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">28220 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">28404 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runRegisterTest</span>
+                <span class="method-start">29142 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">96069 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.StudentLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">96270 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runLoginTest</span>
+                <span class="method-start">97039 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">110817 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.StudentMainPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">110947 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runStudentMainPageTest</span>
+                <span class="method-start">111684 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">113973 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.StudentCourseMainTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">114121 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runStudentCourseMainTest</span>
+                <span class="method-start">114849 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">117073 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.StudentMarksMainTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">117224 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runStudentMarksMainTest</span>
+                <span class="method-start">117958 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">121151 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AdminMainPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">121318 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runAdminMainPageTest</span>
+                <span class="method-start">122059 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">124743 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AdminAddStudentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">124905 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runAdminAddStudentTest</span>
+                <span class="method-start">125613 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">166566 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AdminListStudentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">166690 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runAdminListStudentTest</span>
+                <span class="method-start">167424 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">169942 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AdminSearchStudentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">170067 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runAdminSearchStudentTest</span>
+                <span class="method-start">170828 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">172882 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AdminAddCourseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">173007 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runAdminAddCourseTest</span>
+                <span class="method-start">173747 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">192338 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AdminAssignCourseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">192505 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runAdminAssignCourseTest</span>
+                <span class="method-start">193243 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">195040 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AdminSearchCourseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">195208 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runAdminSearchCourseTest</span>
+                <span class="method-start">195953 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">198143 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AdminMarksMainTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">198292 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runAdminMarksMainTest</span>
+                <span class="method-start">199034 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">201148 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AdminEnterMarksTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">201321 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runAdminEnterMarksTest</span>
+                <span class="method-start">202060 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">203458 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AdminUpdateMarksTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">203603 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runAdminUpdateMarksTest</span>
+                <span class="method-start">204334 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">206831 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-18T03:02:59 IST" name="Student Management Test Suite" finished-at="2025-05-18T03:06:26 IST" duration-ms="206979">
+    <groups>
+    </groups>
+    <test started-at="2025-05-18T03:02:59 IST" name="All Tests" finished-at="2025-05-18T03:06:26 IST" duration-ms="206979">
+      <class name="tests.AdminAddCourseTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AdminAddCourseTest@71c3b41]" started-at="2025-05-18T03:05:52 IST" name="setup" finished-at="2025-05-18T03:05:53 IST" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runAdminAddCourseTest()[pri:0, instance:tests.AdminAddCourseTest@71c3b41]" started-at="2025-05-18T03:05:53 IST" name="runAdminAddCourseTest" finished-at="2025-05-18T03:06:12 IST" duration-ms="18590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runAdminAddCourseTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AdminAddCourseTest@71c3b41]" started-at="2025-05-18T03:06:12 IST" name="tearDown" finished-at="2025-05-18T03:06:12 IST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AdminAddCourseTest -->
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@45ca843]" started-at="2025-05-18T03:03:09 IST" name="setup" finished-at="2025-05-18T03:03:09 IST" duration-ms="725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runLoginTest()[pri:0, instance:tests.LoginTest@45ca843]" started-at="2025-05-18T03:03:09 IST" name="runLoginTest" finished-at="2025-05-18T03:03:28 IST" duration-ms="18246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@45ca843]" started-at="2025-05-18T03:03:28 IST" name="tearDown" finished-at="2025-05-18T03:03:28 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.AdminAssignCourseTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AdminAssignCourseTest@236e3f4e]" started-at="2025-05-18T03:06:12 IST" name="setup" finished-at="2025-05-18T03:06:13 IST" duration-ms="738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runAdminAssignCourseTest()[pri:0, instance:tests.AdminAssignCourseTest@236e3f4e]" started-at="2025-05-18T03:06:13 IST" name="runAdminAssignCourseTest" finished-at="2025-05-18T03:06:14 IST" duration-ms="1796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runAdminAssignCourseTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AdminAssignCourseTest@236e3f4e]" started-at="2025-05-18T03:06:14 IST" name="tearDown" finished-at="2025-05-18T03:06:14 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AdminAssignCourseTest -->
+      <class name="tests.StudentCourseMainTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.StudentCourseMainTest@574b560f]" started-at="2025-05-18T03:04:53 IST" name="setup" finished-at="2025-05-18T03:04:54 IST" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runStudentCourseMainTest()[pri:0, instance:tests.StudentCourseMainTest@574b560f]" started-at="2025-05-18T03:04:54 IST" name="runStudentCourseMainTest" finished-at="2025-05-18T03:04:56 IST" duration-ms="2223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runStudentCourseMainTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.StudentCourseMainTest@574b560f]" started-at="2025-05-18T03:04:56 IST" name="tearDown" finished-at="2025-05-18T03:04:57 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.StudentCourseMainTest -->
+      <class name="tests.StudentMarksMainTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.StudentMarksMainTest@ba54932]" started-at="2025-05-18T03:04:57 IST" name="setup" finished-at="2025-05-18T03:04:57 IST" duration-ms="733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runStudentMarksMainTest()[pri:0, instance:tests.StudentMarksMainTest@ba54932]" started-at="2025-05-18T03:04:57 IST" name="runStudentMarksMainTest" finished-at="2025-05-18T03:05:00 IST" duration-ms="3192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runStudentMarksMainTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.StudentMarksMainTest@ba54932]" started-at="2025-05-18T03:05:00 IST" name="tearDown" finished-at="2025-05-18T03:05:01 IST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.StudentMarksMainTest -->
+      <class name="tests.StudentMainPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.StudentMainPageTest@36b4fe2a]" started-at="2025-05-18T03:04:50 IST" name="setup" finished-at="2025-05-18T03:04:51 IST" duration-ms="737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runStudentMainPageTest()[pri:0, instance:tests.StudentMainPageTest@36b4fe2a]" started-at="2025-05-18T03:04:51 IST" name="runStudentMainPageTest" finished-at="2025-05-18T03:04:53 IST" duration-ms="2288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runStudentMainPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.StudentMainPageTest@36b4fe2a]" started-at="2025-05-18T03:04:53 IST" name="tearDown" finished-at="2025-05-18T03:04:53 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.StudentMainPageTest -->
+      <class name="tests.AdminSearchCourseTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AdminSearchCourseTest@3cc1435c]" started-at="2025-05-18T03:06:14 IST" name="setup" finished-at="2025-05-18T03:06:15 IST" duration-ms="744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runAdminSearchCourseTest()[pri:0, instance:tests.AdminSearchCourseTest@3cc1435c]" started-at="2025-05-18T03:06:15 IST" name="runAdminSearchCourseTest" finished-at="2025-05-18T03:06:17 IST" duration-ms="2187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runAdminSearchCourseTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AdminSearchCourseTest@3cc1435c]" started-at="2025-05-18T03:06:17 IST" name="tearDown" finished-at="2025-05-18T03:06:18 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AdminSearchCourseTest -->
+      <class name="tests.StudentLoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.StudentLoginTest@757acd7b]" started-at="2025-05-18T03:04:36 IST" name="setup" finished-at="2025-05-18T03:04:36 IST" duration-ms="769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runLoginTest()[pri:0, instance:tests.StudentLoginTest@757acd7b]" started-at="2025-05-18T03:04:36 IST" name="runLoginTest" finished-at="2025-05-18T03:04:50 IST" duration-ms="13777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.StudentLoginTest@757acd7b]" started-at="2025-05-18T03:04:50 IST" name="tearDown" finished-at="2025-05-18T03:04:50 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.StudentLoginTest -->
+      <class name="tests.AdminMarksMainTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AdminMarksMainTest@6bf0219d]" started-at="2025-05-18T03:06:18 IST" name="setup" finished-at="2025-05-18T03:06:18 IST" duration-ms="741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runAdminMarksMainTest()[pri:0, instance:tests.AdminMarksMainTest@6bf0219d]" started-at="2025-05-18T03:06:18 IST" name="runAdminMarksMainTest" finished-at="2025-05-18T03:06:20 IST" duration-ms="2113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runAdminMarksMainTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AdminMarksMainTest@6bf0219d]" started-at="2025-05-18T03:06:20 IST" name="tearDown" finished-at="2025-05-18T03:06:21 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AdminMarksMainTest -->
+      <class name="tests.AdminAddStudentTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AdminAddStudentTest@3943a2be]" started-at="2025-05-18T03:05:04 IST" name="setup" finished-at="2025-05-18T03:05:05 IST" duration-ms="707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runAdminAddStudentTest()[pri:0, instance:tests.AdminAddStudentTest@3943a2be]" started-at="2025-05-18T03:05:05 IST" name="runAdminAddStudentTest" finished-at="2025-05-18T03:05:46 IST" duration-ms="40951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runAdminAddStudentTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AdminAddStudentTest@3943a2be]" started-at="2025-05-18T03:05:46 IST" name="tearDown" finished-at="2025-05-18T03:05:46 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AdminAddStudentTest -->
+      <class name="tests.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomePageTest@568ff82]" started-at="2025-05-18T03:02:59 IST" name="setup" finished-at="2025-05-18T03:03:01 IST" duration-ms="1363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runHomePageTest()[pri:0, instance:tests.HomePageTest@568ff82]" started-at="2025-05-18T03:03:01 IST" name="runHomePageTest" finished-at="2025-05-18T03:03:08 IST" duration-ms="7669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runHomePageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@568ff82]" started-at="2025-05-18T03:03:08 IST" name="tearDown" finished-at="2025-05-18T03:03:09 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.HomePageTest -->
+      <class name="tests.AdminUpdateMarksTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AdminUpdateMarksTest@5f16132a]" started-at="2025-05-18T03:06:23 IST" name="setup" finished-at="2025-05-18T03:06:24 IST" duration-ms="730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runAdminUpdateMarksTest()[pri:0, instance:tests.AdminUpdateMarksTest@5f16132a]" started-at="2025-05-18T03:06:24 IST" name="runAdminUpdateMarksTest" finished-at="2025-05-18T03:06:26 IST" duration-ms="2497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runAdminUpdateMarksTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AdminUpdateMarksTest@5f16132a]" started-at="2025-05-18T03:06:26 IST" name="tearDown" finished-at="2025-05-18T03:06:26 IST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AdminUpdateMarksTest -->
+      <class name="tests.AdminListStudentTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AdminListStudentTest@343570b7]" started-at="2025-05-18T03:05:46 IST" name="setup" finished-at="2025-05-18T03:05:47 IST" duration-ms="734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runAdminListStudentTest()[pri:0, instance:tests.AdminListStudentTest@343570b7]" started-at="2025-05-18T03:05:47 IST" name="runAdminListStudentTest" finished-at="2025-05-18T03:05:49 IST" duration-ms="2517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runAdminListStudentTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AdminListStudentTest@343570b7]" started-at="2025-05-18T03:05:49 IST" name="tearDown" finished-at="2025-05-18T03:05:49 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AdminListStudentTest -->
+      <class name="tests.AdminMainPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AdminMainPageTest@28975c28]" started-at="2025-05-18T03:05:01 IST" name="setup" finished-at="2025-05-18T03:05:01 IST" duration-ms="741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runAdminMainPageTest()[pri:0, instance:tests.AdminMainPageTest@28975c28]" started-at="2025-05-18T03:05:01 IST" name="runAdminMainPageTest" finished-at="2025-05-18T03:05:04 IST" duration-ms="2683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runAdminMainPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AdminMainPageTest@28975c28]" started-at="2025-05-18T03:05:04 IST" name="tearDown" finished-at="2025-05-18T03:05:04 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AdminMainPageTest -->
+      <class name="tests.RegisterTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RegisterTest@11c9af63]" started-at="2025-05-18T03:03:28 IST" name="setup" finished-at="2025-05-18T03:03:28 IST" duration-ms="737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runRegisterTest()[pri:0, instance:tests.RegisterTest@11c9af63]" started-at="2025-05-18T03:03:28 IST" name="runRegisterTest" finished-at="2025-05-18T03:04:35 IST" duration-ms="66926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runRegisterTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RegisterTest@11c9af63]" started-at="2025-05-18T03:04:35 IST" name="tearDown" finished-at="2025-05-18T03:04:36 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RegisterTest -->
+      <class name="tests.AdminEnterMarksTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AdminEnterMarksTest@dd0c991]" started-at="2025-05-18T03:06:21 IST" name="setup" finished-at="2025-05-18T03:06:21 IST" duration-ms="738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runAdminEnterMarksTest()[pri:0, instance:tests.AdminEnterMarksTest@dd0c991]" started-at="2025-05-18T03:06:21 IST" name="runAdminEnterMarksTest" finished-at="2025-05-18T03:06:23 IST" duration-ms="1397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runAdminEnterMarksTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AdminEnterMarksTest@dd0c991]" started-at="2025-05-18T03:06:23 IST" name="tearDown" finished-at="2025-05-18T03:06:23 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AdminEnterMarksTest -->
+      <class name="tests.AdminSearchStudentTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AdminSearchStudentTest@157853da]" started-at="2025-05-18T03:05:49 IST" name="setup" finished-at="2025-05-18T03:05:50 IST" duration-ms="760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runAdminSearchStudentTest()[pri:0, instance:tests.AdminSearchStudentTest@157853da]" started-at="2025-05-18T03:05:50 IST" name="runAdminSearchStudentTest" finished-at="2025-05-18T03:05:52 IST" duration-ms="2054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runAdminSearchStudentTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AdminSearchStudentTest@157853da]" started-at="2025-05-18T03:05:52 IST" name="tearDown" finished-at="2025-05-18T03:05:52 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AdminSearchStudentTest -->
+    </test> <!-- All Tests -->
+  </suite> <!-- Student Management Test Suite -->
+</testng-results>
