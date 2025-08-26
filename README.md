@@ -1,8 +1,8 @@
-# Student Management System
+# Student Management System (Testing)
 
 ## Overview
 
-This project is a full-stack Student Management System designed to manage students, courses, and marks. It features automated testing using Selenium WebDriver, TestNG, and integrates with MongoDB for data storage. Test results are logged in Excel files using Apache POI.
+This is the testing of my full-stack Student Management System designed to manage students, courses and marks. It features automated testing using Selenium WebDriver, TestNG and integrates with MongoDB for data storage. Test results are logged in Excel files using Apache POI.
 
 ## Features
 
